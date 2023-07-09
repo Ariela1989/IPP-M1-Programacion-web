@@ -1,0 +1,167 @@
+.contenedor {
+    font-family: 'Carter One', cursive; /* Fuente personalizada para el texto */
+    color: blue; /* Color del texto */
+  }
+
+ 
+  
+    
+  .form-inline {
+    color: rgb(144, 248, 103); /* Color del texto */
+    font-size: 25px; /* Tamaño de fuente */
+    position: relative; /* Posición relativa */
+    left: 900px; /* Desplazamiento a la izquierda */
+  }
+  
+  /* Estilos para la caja 1 */
+  .caja1 {
+    background-color: rgb(240, 241, 147); /* Color de fondo */
+    width: 40%; /* Ancho de la caja */
+    height: 300px; /* Altura de la caja */
+    float: left; /* Alineación a la izquierda */
+    position: relative; /* Posición relativa */
+    left: 10%; /* Desplazamiento a la izquierda */
+
+  }
+  
+  .caja1 h4 {
+    font-family: 'Yeseva One', cursive; /* Fuente personalizada para el título */
+    margin-top: 10px; /* Margen superior */
+    margin-bottom: 25px; /* Margen inferior */
+    text-align: center; /* Alineación centrada */
+  }
+  
+  .caja1 p {
+    font-size: 16px; /* Tamaño de fuente */
+    text-align: justify; /* Alineación justificada */
+    padding: 10px; /* Espaciado interno */
+  }
+  
+  /* Estilos para la caja 2 */
+  .caja2 {
+    background-color: rgb(240, 174, 174); /* Color de fondo */
+    width: 40%; /* Ancho de la caja */
+    height: 300px; /* Altura de la caja */
+    float: left; /* Alineación a la izquierda */
+    position: relative; /* Posición relativa */
+    left: 150px; /* Desplazamiento a la izquierda */
+  }
+  
+  .caja2 h4 {
+    font-family: 'Yeseva One', cursive; /* Fuente personalizada para el título */
+    margin-top: 15px; /* Margen superior */
+    margin-bottom: 25px; /* Margen inferior */
+    text-align: center; /* Alineación centrada */
+  }
+  
+  .caja2 p {
+    font-size: 15px; /* Tamaño de fuente */
+    text-align: justify; /* Alineación justificada */
+    padding: 10px; /* Espaciado interno */
+  }
+  
+  /* Estilos para la caja 3 */
+  .caja3 {
+    background-color: rgb(191, 245, 147); /* Color de fondo */
+    width: 1020px; /* Ancho de la caja */
+    height: 300px; /* Altura de la caja */
+    float: left; /* Alineación a la izquierda */
+    position: relative; /* Posición relativa */
+    top: 50px; /* Desplazamiento hacia arriba */
+    left: 120px; /* Desplazamiento a la izquierda */
+  }
+  
+  .caja3 h4 {
+    font-family: 'Yeseva One', cursive; /* Fuente personalizada para el título */
+    margin-top: 20px; /* Margen superior */
+    margin-bottom: 30px; /* Margen inferior */
+    text-align: center; /* Alineación centrada */
+  }
+  
+  .caja3 p {
+    font-size: 17px; /* Tamaño de fuente */
+    text-align: justify; /* Alineación justificada */
+    padding: 10px; /* Espaciado interno */
+  }
+  
+  /* Estilos para la caja 4 */
+  .caja4 {
+    background-color: #f3dd7a; /* Color de fondo */
+    width: 40%; /* Ancho de la caja */
+    height: 300px; /* Altura de la caja */
+    float: left; /* Alineación a la izquierda */
+    position: relative; /* Posición relativa */
+    top: 110px; /* Desplazamiento hacia abajo */
+    left: 120px; /* Desplazamiento a la izquierda */
+  }
+  
+  .caja4 h4 {
+    font-family: 'Yeseva One', cursive; /* Fuente personalizada para el título */
+    margin-top: 20px; /* Margen superior */
+    margin-bottom: 30px; /* Margen inferior */
+    text-align: center; /* Alineación centrada */
+  }
+  
+  .caja4 p {
+    font-size: 14px; /* Tamaño de fuente */
+    text-align: justify; /* Alineación justificada */
+    padding: 10px; /* Espaciado interno */
+  }
+  
+  /* Estilos para la caja 5 */
+  .caja5 {
+    background-color: aquamarine; /* Color de fondo */
+    width: 40%; /* Ancho de la caja */
+    height: 300px; /* Altura de la caja */
+    float: left; /* Alineación a la izquierda */
+    position: relative; /* Posición relativa */
+    top: 110px; /* Desplazamiento hacia abajo */
+    left: 150px; /* Desplazamiento a la izquierda */
+  }
+  
+  .caja5 h4 {
+    font-family: 'Yeseva One', cursive; /* Fuente personalizada para el título */
+    margin-top: 20px; /* Margen superior */
+    margin-bottom: 30px; /* Margen inferior */
+    text-align: center; /* Alineación centrada */
+  }
+  
+  .caja5 p {
+    font-size: 14px; /* Tamaño de fuente */
+    text-align: justify; /* Alineación justificada */
+    padding: 10px; /* Espaciado interno */
+  }
+  
+  .rounded {
+    width: 100px; /* Ancho del elemento */
+    height: 100px; /* Altura del elemento */
+    padding-left: 10px; /* Espaciado a la izquierda */
+  }
+  
+  .rounded-circle {
+    width: 100px; /* Ancho del elemento */
+    height: 100px; /* Altura del elemento */
+    padding-left: 10px; /* Espaciado a la izquierda */
+  }
+  
+  .imagen_final {
+    top: 1000px; /* Desplazamiento hacia abajo */
+  }
+  
+  .footer {
+    text-align: center; /* Alineación centrada del texto */
+    border-top: 1px solid #0c0c0c; /* Borde superior de 1 píxel sólido */
+    padding: 20px 0; /* Espaciado interno superior e inferior de 20 píxeles */
+    background-color: #f8d0f0; /* Color de fondo */
+    color: rgb(8, 8, 8); /* Color del texto */
+  }
+  
+  .icons {
+    font-size: 24px; /* Tamaño de fuente para los iconos */
+  }
+  
+  .footer .icons a i {
+    color: rgb(12, 12, 12); /* Color del icono */
+  }
+  
+  

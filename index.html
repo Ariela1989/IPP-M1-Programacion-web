@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Agrega mi hoja de estilos personalizada -->
+    <link rel="stylesheet" href="style.css">
+     <!-- Agrega el icono de la página -->
+    <link rel="icon" href="icono.png">
+<!-- Agrega el estilo de los iconos de Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Agrega las fuentes de Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Yeseva+One&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Carter+One&display=swap" rel="stylesheet">
+    <!-- Título de la página -->
+    <title>Patitas de Dachshund</title>
+    <!-- Agrega los estilos de Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+     <!-- Agrega los scripts de Bootstrap -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+    
+</head>
+<body><!-- Aquí va el cuerpo de mi pagina web, lo realizare con div el cual esta encargado de contener la información-->
+   <!-- Barra de navegación con Bootstrap-->
+   <nav class="navbar navbar-light" style="background-color: #f8d0f0;">  <!-- coloque el mismo color que el pie de página-->
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#"> 
+            <img src="icono.png" alt="logo" width="60px">  <!-- cambie el título que tenia por un logo-->
+
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Servicios</a>  <!-- realice cambios en las etiquetas originales-->
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Productos Principales
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Comida y Snack</a></li>
+                  <li><a class="dropdown-item" href="#">Ropa</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="#">Accesorios</a></li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link disabled">Ayuda</a>
+              </li>
+            </ul>
+            <form class="d-flex" role="search">
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-outline-success" type="submit">Search</button>
+            </form>
+          </div>
+        </div>
+      </nav>
+<!-- Título de la marca: Patitas de Dachshund-->
+        <div style="text-align:center;">
+            <h1 class="contenedor">Patitas de Dachshund</h1>
+            </div>
+
+<!-- Aquí está el carrusel que cambia las imágenes como una diapositiva en movimiento, fue la parte que más disfrute.
+     El código está realizado por Bootstrap.
+y las imagenes semi diseñadas gracias a power point-->
+        <div id="carouselExample" class="carousel slide">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="perrito.png" class="d-block w-100" alt="imagen de portada principal">
+              </div>
+              <div class="carousel-item">
+                <img src="diapo1.png" class="d-block w-100" alt="Oferta de comida">
+              </div>
+              <div class="carousel-item">
+                <img src="diapo2.png" class="d-block w-100" alt="Ropa de perrito">
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>           
+    <!-- Incluyendo archivos de JavaSscripts -->
+    <script src="script.js"></script>
+    <script src="ruta/bootstrap.min.js"></script>
+    <script src="ruta/bootstrap.bundle.min.js"></script>
+  
+  <!-- Mi propio código JavaScript -->
+    <script src="ruta/tu-script.js"></script>
+  <!-- Caja 1: Snack y Comida -->
+    <div class="caja1"> 
+        <h4>COMIDA Y SNACK </h4>
+        <img src="pienso-para-teckel.jpg" alt="imagen para venta de accesorios" class="rounded-circle">
+        <p>¡Bienvenido a nuestro paraíso de comida para perros! Aquí encontrarás una variedad sorprendente de alimentos diseñados para satisfacer las necesidades de todo tipo de perros y diferentes razas. Desde los más chiquititos hasta los más viejitos, tenemos cubiertas todas las etapas de vida y tamaños.</p>
+    </div>
+ <!-- Caja 2: Medicamentos -->
+    <div class="caja2" > 
+        <h4>MEDICAMENTOS</h4>
+        <img src="images (1).jpeg"   alt="imagen para venta de medicamentos" class="rounded-circle">
+        <p>¡Mantén a tu mascota saludable con nuestra venta de medicamentos de recetas liberadas! Cuidar a tu compañero peludo nunca ha sido tan fácil. Contamos con una amplia selección de medicamentos seguros y eficaces para satisfacer todas las necesidades de tu mascota. </p>
+    </div>
+    
+<!-- Caja 3: Camas y Accesorios -->
+    <div class="caja3" > 
+        <h4>CAMAS Y ACCESORIOS</h4>
+        <img src="images.jpeg"   alt="imagen para venta de accesorios" class="rounded">
+        <p>¡Descubre nuestra increíble variedad de accesorios para consentir a tu mascota, el miembro más importante de tu familia! Tenemos todo lo que necesitas, desde elegantes platos para que disfrute de sus comidas con estilo, hasta collares únicos que harán lucir a tu peludo amigo a la moda.</p>
+    </div>
+<!-- Caja 4: Ropa -->
+    <div class="caja4"> 
+        <h4>ROPA</h4>
+        <img src="ropa-teckel-invierno.jpg"  alt="imagen para venta de Ropa" class="rounded">
+        <p>¡Enfrenta los meses fríos de invierno con estilo y ahorro! Ahora puedes llevarte abrigos y suéteres a un increíble 2X1. Mantén a tu mascota abrigada y protegida del frío con nuestra selección de prendas de moda diseñadas especialmente para ellos</p>
+    </div>
+<!-- Caja 5: Otros Animalitos -->
+    <div class="caja5" > 
+        <h4>OTROS ANIMALITOS</h4>
+        <img src="descargar.png" alt="imagen para venta de accesorios" class="rounded">
+        <p>¡No nos olvidamos de los adorables gatitos en tu hogar! También tenemos una amplia variedad de accesorios y comida especialmente diseñados para satisfacer las necesidades de tus pequeños felinos.</p>
+
+<!-- cierre de la página con una imagen -->
+    </div>
+    <div class="imagen_final" style="text-align:center;">
+        <img src="perrito.png" alt="Diferentes tipos">
+    </div>
+
+ <!-- pie de página abriendo footer -->
+    <footer class="footer">
+ <!-- Iconos de redes sociales -->
+        <div class="icons">
+            <a href="https://es-es.facebook.com/groups/adoptateckel/">
+                <i class="fa-brands fa-facebook"></i>
+              </a>
+              <a href="https://www.instagram.com/explore/tags/dachshund/">
+                <i class="fa-brands fa-instagram"></i>
+              </a>
+              <a href="//www.youtube.com/watch?v=t4BJ0Zvan8I">
+                <i class="fa-brands fa-youtube"></i> 
+              </a>
+      </div>
+ <!-- Nombre del creador y nombre de la empresa de fantasia -->
+        <p>Patitas de Dachshund</p>
+        <p>Ariela Ulloa Herrera</p>
+        <p>© 2023. Todos los derechos reservados.</p>
+    </footer>
+
+</body>
+</html> 
